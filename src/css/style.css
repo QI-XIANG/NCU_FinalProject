@@ -1,0 +1,11 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    background-color: #F5F5FF !important;
+}
+.about{
+    background-color: #EFF5F5;
+}
+#my_dataviz > svg > g.tick{
+    color: black;
+    font-size: 115px !important;
+}
