@@ -9,3 +9,7 @@ body{
     color: black;
     font-size: 115px !important;
 }
+
+g.showtext{
+    background-color: gray !important;
+}

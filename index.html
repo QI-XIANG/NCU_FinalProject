@@ -55,9 +55,9 @@
             </div>
             <div class="col-10 m-0 pt-1 pb-3">
                 <span class="opacity-0">空格</span>全球就業指標資料庫 JOIN 提供了 168 個國家的 100 多個勞動力市場指標和 1,802
-            項調查。這些指標涵蓋社會人口統計、勞動力狀況、就業類型、按部門和職業劃分的就業組成、教育水準、工作時間、收入，還提供調查相關的品質資訊。
-            這些指標具有全國代表性，適用於不同類型的勞動者。當中包括城市或農村地區的勞動者、男性和女性、年輕（15-24
-            歲）和年長（25-64 歲）工人，或受過較低和高等教育的勞動者。
+                項調查。這些指標涵蓋社會人口統計、勞動力狀況、就業類型、按部門和職業劃分的就業組成、教育水準、工作時間、收入，還提供調查相關的品質資訊。
+                這些指標具有全國代表性，適用於不同類型的勞動者。當中包括城市或農村地區的勞動者、男性和女性、年輕（15-24
+                歲）和年長（25-64 歲）工人，或受過較低和高等教育的勞動者。
             </div>
         </div>
     </div>
@@ -66,27 +66,43 @@
         <div class="row justify-content-center">
             <div class="col-12 pt-3 text-center">
                 <h2>折線圖</h2>
-                <h3 class="pt-2">全球勞動市場平均年齡 (依年份)</h3>
+                <h3 class="pt-2">全球勞動市場平均年齡</h3>
             </div>
             <div class="col-10 m-0 pt-1 pb-3">
                 <span class="opacity-0">空格</span>全球就業指標資料庫 JOIN 提供了 168 個國家的 100 多個勞動力市場指標和 1,802
-            項調查。這些指標涵蓋社會人口統計、勞動力狀況、就業類型、按部門和職業劃分的就業組成、教育水準、工作時間、收入，還提供調查相關的品質資訊。
-            這些指標具有全國代表性，適用於不同類型的勞動者。當中包括城市或農村地區的勞動者、男性和女性、年輕（15-24
-            歲）和年長（25-64 歲）工人，或受過較低和高等教育的勞動者。
+                項調查。這些指標涵蓋社會人口統計、勞動力狀況、就業類型、按部門和職業劃分的就業組成、教育水準、工作時間、收入，還提供調查相關的品質資訊。
+                這些指標具有全國代表性，適用於不同類型的勞動者。當中包括城市或農村地區的勞動者、男性和女性、年輕（15-24
+                歲）和年長（25-64 歲）工人，或受過較低和高等教育的勞動者。
             </div>
         </div>
     </div>
     <div class="container-fluid" style="background-color: #EFF5F5;">
         <div class="row">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check lineplotBtn" name="btnradio" id="gender" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="gender">性別</label>
+    
+                            <input type="radio" class="btn-check lineplotBtn" name="btnradio" id="location" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="location">居住地區</label>
+    
+                            <input type="radio" class="btn-check lineplotBtn" name="btnradio" id="education" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="education">教育程度</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-12">
                 <div class="d-flex justify-content-center">
                     <div id="my_dataviz" style="overflow-x: auto;" class="mb-5"></div>
                 </div>
             </div>
         </div>
-        
+
     </div>
-    
+
 
 </body>
 <script src="//unpkg.com/d3"></script>
