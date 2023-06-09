@@ -105,7 +105,7 @@ for (var i = 1992; i <= 2021; i++) {
 console.log(dataYear)
 
 //Read the data
-d3.csv("../../data_preprocess/cleanDataset/clean_lineplotData.csv").then(function (data) {
+d3.csv("data_preprocess/cleanDataset/clean_lineplotData.csv").then(function (data) {
 
 
   btn = document.querySelectorAll('.lineplotBtn')
@@ -124,7 +124,7 @@ d3.csv("../../data_preprocess/cleanDataset/clean_lineplotData.csv").then(functio
     focusText.style("opacity", 0)
     focus1.style("opacity", 0)
     focus2.style("opacity", 0)
-    
+
     // group the data: I want to draw one line per group
     const sumstat = dataFilter(data, label)// nest function allows to group the calculation per level of a factor
 
