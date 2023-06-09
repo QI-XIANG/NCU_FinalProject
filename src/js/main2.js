@@ -55,7 +55,7 @@ svg.append("circle").attr("cx", 100).attr("cy", 30).attr("r", 6).style("fill", "
 svg.append("circle").attr("cx", 100).attr("cy", 60).attr("r", 6).style("fill", "rgb(55, 126, 184)")
 svg.append("text").attr("class", "linePlotLegend1").attr("x", 120).attr("y", 30).text("男性").style("font-size", "15px").attr("alignment-baseline", "middle")
 svg.append("text").attr("class", "linePlotLegend2").attr("x", 120).attr("y", 60).text("女性").style("font-size", "15px").attr("alignment-baseline", "middle")
-svg.append("text").attr("x", -320).attr("y", -55).text("勞動市場平均年齡").style("font-size", "18px").attr('transform', `rotate(-90)`)
+svg.append("text").attr("x", -320).attr("y", -55).text("全球勞動市場平均年齡").style("font-size", "18px").attr('transform', `rotate(-90)`)
 svg.append("text").attr("x", 500).attr("y", 580).text("時間").style("font-size", "18px")
 
 
