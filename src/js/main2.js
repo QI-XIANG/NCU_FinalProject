@@ -446,7 +446,7 @@ d3.csv("data_preprocess/cleanDataset/clean_new_lineplotData.csv").then(function 
     }
 
   }
-  //初始畫圖標
+  //初始化圖表
   updateChart(data, 'gender')
 
 })
