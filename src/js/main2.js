@@ -81,7 +81,7 @@ const legendT4 = svg.append("text").attr("class", "linePlotLegend4").attr("x", 1
 
 //圖表座標軸標題
 svg.append("text").attr("x", -320).attr("y", -55).text("全球勞動市場平均年齡").style("font-size", "18px").attr('transform', `rotate(-90)`)
-svg.append("text").attr("x", 500).attr("y", 580).text("時間").style("font-size", "18px")
+svg.append("text").attr("x", 550).attr("y", 580).text("時間").style("font-size", "18px")
 
 
 //初始化座標軸
@@ -121,7 +121,7 @@ function lineAnimation(path, length) {
     .transition()
     .ease(d3.easeLinear)
     .attr("stroke-dashoffset", 0)
-    .duration(7000);
+    .duration(6000);
 }
 
 
@@ -378,7 +378,7 @@ d3.csv("data_preprocess/cleanDataset/clean_new_lineplotData.csv").then(function 
 
       path2 = d3.selectAll(".path2")
       length2 = path2.node().getTotalLength()
-
+      length2 = 2200
       lineAnimation(path2, length2)
 
     }
@@ -406,6 +406,7 @@ d3.csv("data_preprocess/cleanDataset/clean_new_lineplotData.csv").then(function 
 
       path3 = d3.selectAll(".path3")
       length3 = path3.node().getTotalLength()
+      length3 = 2200
       console.log("length3:" + length3)
 
       lineAnimation(path3, length3)
