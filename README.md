@@ -3,5 +3,5 @@
 * 網頁位址：https://qi-xiang.github.io/NCU_FinalProject/
 * 製作：國立中央大學 資管四 張棨翔
 
-![](https://hackmd.io/_uploads/Sy6t9wL7C.png)
+![](https://i.imgur.com/IT1O8yw.png)
 
